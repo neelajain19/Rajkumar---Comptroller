@@ -1,0 +1,169 @@
+/* General styles */
+p, section{
+    /* Sets a max-width for all paragraphs */
+    max-width:600px;
+
+    /* Uses the margin trick to center */
+    margin:10px auto;
+
+    text-align: justify;
+}
+
+img{
+
+ 	/* Automatically resizes the images to fit the window width */
+ 	max-width: 80%;
+ 	height: auto;
+ 	border: 5px solid black;
+}
+
+
+ /* Link styles */
+a{
+	color: #478bb8;
+}
+
+
+ 
+/* Body styles */
+body{
+
+ 	/* Sets the font family for the body*/
+	font-family: 'Open+Sans', sans-serif;
+ }
+
+
+/* Header styles */
+header{
+
+	/* Centers the header text */
+	text-align: center;
+
+	/* Sets the font family for the body*/
+	font-family: 'Open+Sans', sans-serif;
+}
+
+header h1{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 760px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+ 
+	/* Left-aligns the text */
+	text-align: center;
+}
+
+span.header{
+
+	/*Sets a separate color, font size and makes bold first line of headline */
+ 	color:red;
+ 	font-weight:600;
+ 	font-size:20px;
+}
+
+header h2, h3{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 750px;
+
+	/*Sets a smaller font size for h2s in the header section */
+	font-size: 16px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+
+	/* Left-aligns the text */
+	text-align: center;
+}
+
+header h3{
+
+	/*Sets a smaller font size for h3s in the header section */
+	font-size: 14px;
+}
+
+span.name{
+
+	/*Sets a separate color, font size and makes bold certain sections of header and single letters throughout paragraph bodies */
+ 	color:red;
+ 	font-weight:900;
+ 	font-size:30px;
+ }
+
+hr{
+
+	/*Creates mini-border lines between header sections and all throughout body to create a cleaner look */
+ 	height:2px;
+ 	width:30%;
+ 	background-color:black;
+}
+
+
+/* Styles for the banner image and caption */
+
+figure.banner{
+
+ 	/* This display allows the figcaption to align with the image */
+ 	display:inline-block;
+
+ 	/* Uses the margin trick to center */
+ 	margin: 0px auto;
+ }
+
+figcaption.bannerCaption{
+
+ 	/* Sets the font size for the caption text */
+	font-size: 12px;
+
+	/* Centers the caption text */
+	text-align: center;
+
+	/* A margin-left of 20px helps the caption appear centered with the image even though it's technically a little shorter */
+	margin-left: 20px;
+ }
+
+
+ /* Styles for section headers */
+
+.content-block h3{
+
+	/* Tweaking the top and bottom margins to make them look neater */
+	margin-top: 30px;
+	margin-bottom: -5px;
+	color: red;
+	font-size: 16px;
+	font-style: italic;
+	text-align: left;
+ }
+
+ hr {
+ 	height:2px;
+ 	width:30%;
+ 	background-color:black;
+ 	border:0;
+ }
+
+
+/* Twitter embed styles */
+.twitter-tweet {
+
+	/* Adds a little space above and below */ 
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	/* Uses the margin trick to center */
+    margin: 10px auto;
+	
+}
+
+/* Styles for the final section */
+section.last{
+
+	/*  Adds some breathing room after the last paragraph */
+	margin-bottom: 25px;
+}
+
+
+
